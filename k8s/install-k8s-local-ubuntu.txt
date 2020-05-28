@@ -12,7 +12,7 @@ disblae default reslov conf services & install dnsmasq ( only on master )
 	sudo systemctl disable systemd-resolved.service
 	sudo systemctl disable resolvconf.service
 	sudo systemctl stop systemd-resolved
-	sudo systemct stop resolvconf.service
+	sudo systemctl stop resolvconf.service
 	sudo apt-get install dnsmasq
 
 	reboot the machine 
