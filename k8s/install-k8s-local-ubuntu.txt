@@ -51,8 +51,7 @@ K8s Master Setup Local Ubuntu
 	
 	for coredns pods to come up run below
 	
-		kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml
-
+		kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 ========================================================================================
 		
 K8S Node Setup:
